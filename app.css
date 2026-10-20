@@ -1,0 +1,10 @@
+.md{display:flex;flex-direction:column;gap:10px;height:100%}
+.md-pick{display:flex;justify-content:space-between}
+.md-pick button{font-size:1.8rem;background:none;border:2px solid transparent;border-radius:10px;cursor:pointer;padding:4px 8px}
+.md-pick button.on{border-color:var(--accent,#3498db);background:var(--surface,#1e1e1e)}
+.md-note{padding:9px;border:1px solid var(--muted-bg,#444);border-radius:8px;background:var(--surface,#1e1e1e);color:var(--text,#eee)}
+.md-save{padding:10px;border:0;border-radius:8px;background:var(--accent2,#27ae60);color:#fff;cursor:pointer;font-weight:600}
+.md-h{margin:4px 0 0;font-size:.78rem;opacity:.7}
+.md-hist{flex:1;overflow:auto;display:flex;flex-direction:column;gap:5px}
+.md-day{display:flex;align-items:center;gap:10px;font-size:.85rem;padding:5px 8px;border-radius:7px;background:var(--surface,#1e1e1e)}
+.md-day .d{opacity:.6;min-width:54px;font-family:monospace}.md-day .e{font-size:1.2rem}.md-day .n{opacity:.8}
